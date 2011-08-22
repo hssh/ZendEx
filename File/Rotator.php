@@ -20,7 +20,6 @@ abstract class ZendEx_File_Rotator {
      * @param  string $url
      * @param  string $className
      * @return Zend_File_Rotator
-     * @link   http://www.faqs.org/rfcs/rfc2396.html
      */
     public static function factory($config) {
         if (empty($config["rotatorName"])) {
